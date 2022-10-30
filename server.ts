@@ -6,6 +6,8 @@ import { DB } from "./src/types";
 import { getRandomArrayElem } from "./src/utils";
 const server = jsonServer.create();
 const router = jsonServer.router<DB>("db-2022-10-30T192011.373Z.json");
+// OR
+// const router = jsonServer.router<DB>(createDb());
 const middlewares = jsonServer.defaults();
 
 // Set default middlewares (logger, static, cors and no-cache)
