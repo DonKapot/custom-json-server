@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:json": "json-server --watch db.json --port 3004",
-    "start:ts": "start http://localhost:3004  && nodemon db.ts --port 3004",
-    "start:custom": "start http://localhost:3005 && nodemon server.ts",
+    "start": "start http://localhost:3005 && nodemon server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
