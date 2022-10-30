@@ -1,0 +1,6 @@
+{
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "ignore": ["node_modules/", "*.json", "*.spec", "*.d.ts"]
+}
